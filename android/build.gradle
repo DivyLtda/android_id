@@ -65,4 +65,15 @@ android {
             }
         }
     }
+
+    flavorDimensions "app" // Deve ser o mesmo nome usado no seu app principal
+
+    productFlavors {
+        prod {
+            dimension "app"
+        }
+        homolog {
+            dimension "app"
+        }
+    }
 }
